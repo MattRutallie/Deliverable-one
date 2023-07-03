@@ -1,88 +1,126 @@
 ### Step 2A
-
+/c/Users/mruta
 
 ### Step 2B
-
+$ cd desktop
 
 ### Step 2C
-
+$ cd unit1-git-practice/
 
 ### Step 2D
-
+/c/users/mruta/desktop/unit1-git-practice
 
 ### Step 2E
-
+ls
 
 ### Step 2F
-
+my-steps.txt
 
 ### Step 2G
-
+cd ~
 
 ### Step 2H
-
+/c/Users/mruta
 
 ### Step 2I
-
+ AMD_RyzenMaster.log   ntuser.dat.LOG2
+ AMDRM_Install.log     NTUSER.DAT{3c765996-c2f7-11ed-aa3e-bcf4d40d76b4}.TM.blf
+ anaconda3/            NTUSER.DAT{3c765996-c2f7-11ed-aa3e-bcf4d40d76b4}.TMContainer00000000000000000001.regtrans-ms
+ AppData/              NTUSER.DAT{3c765996-c2f7-11ed-aa3e-bcf4d40d76b4}.TMContainer00000000000000000002.regtrans-ms
+'Application Data'@    ntuser.ini
+ Contacts/             OneDrive/
+ Cookies@              Pictures/
+ Desktop/              PrintHood@
+ Documents/            PycharmProjects/
+ Downloads/            Recent@
+ Favorites/           'Saved Games'/
+ Links/                Searches/
+'Local Settings'@      SendTo@
+ Music/               'Start Menu'@
+'My Documents'@        Templates@
+ NetHood@              usb_driver/
+ NTUSER.DAT            venv/
+ ntuser.dat.LOG1       Videos/
 
 ### Step 2J
-
+cd ~
 
 ### Step 2K
-
+$ cd /c/Users/mruta/Desktop/unit1-git-practice/
 
 
 ### Step 3A
-
+$ mkdir veggies
+$ mkdir meats
+$ mkdir desserts
 
 ### Step 3B
-
+$ mv desserts sweets
 
 ### Step 3C
-
+$ mkdir proteins
 
 ### Step 3D
-
+(did not say record command used) 
+$ mv meats proteins
 
 ### Step 3E
-
+$ cd veggies
+$ touch carrot.txt
+$ touch pea.txt
 
 ### Step 3F
-
+cd ..
+$ cd sweets
+$ touch cookie.txt
 
 ### Step 3G
-
+(did not say record command used) 
+$ mv cookie.txt donut.txt
 
 ### Step 3H
-
+$ cd ..
+$ touch thing.txt
 
 ### Step 3I
-
+$ cp thing.txt tofu.txt
 
 ### Step 3J
-
+$ mv tofu.txt proteins
 
 ### Step 3K
-
+mv crab.txt proteins/meats
 
 ### Step 3L
-
+rm thing.txt
 
 ### Step 3M
-
+$ cp -r veggies plants
 
 ### Step 3N
-
-
+$ mkdir drinks
+$ rm -r drinks
 
 ### Step 4
-
+$ cd /c/Users/mruta/Desktop/unit1-git-practice/
+$ git init
+$ git add .
+$ git commit -m 'initial commit'
 
 ### Step 5
+$ git remote add origin https://github.com/MattRutallie/Deliverable-one.git
+git branch -M main
+git push -u origin main
 
+(i was following along with the video and it was stated to make the initial repository as "deliverable one", which i did. still ̶t̶r̶y̶i̶n̶g̶ ̶t̶o̶ ̶f̶i̶g̶u̶r̶e̶ ̶o̶u̶t̶  learning if a name change is possible)
 
 ### Step 6
-
+$ touch menu.txt
+$ ls
+$ git status
+$ git add .
+$ git commit -m 'starting a menu'
+$ git push
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
